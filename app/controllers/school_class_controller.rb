@@ -1,5 +1,4 @@
 class SchoolClassController < ApplicationController
-
   def index
 		@school_classes = SchoolClass.all
 	end
@@ -34,7 +33,4 @@ class SchoolClassController < ApplicationController
 	def school_class_params(*args)
 		params.require(:school_class).permit(*args)
 	end
-
-
-
 end
