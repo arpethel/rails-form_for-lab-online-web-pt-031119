@@ -36,5 +36,5 @@ class SchoolClassController < ApplicationController
 	end
 
 
-  
+
 end
