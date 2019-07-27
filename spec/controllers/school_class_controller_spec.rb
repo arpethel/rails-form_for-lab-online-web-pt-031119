@@ -4,7 +4,7 @@ require 'rails_helper'
 #
 # end
 
-describe SchoolClassController do
+describe SchoolClassesController do
 
   describe "POST create" do
     context "with valid attributes" do
